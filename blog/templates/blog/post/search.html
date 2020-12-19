@@ -1,0 +1,45 @@
+{% extends 'blog/base.html' %}
+{% load blog_tags %}
+{% load widget_tweaks %}
+{% load crispy_forms_tags %}
+
+{% block title %}Search{% endblock %}
+
+{% block content %}
+    {% if query %}
+        <h2 class="my-4">
+            Posts containing {{ query }}.
+        </h2>
+        <h3>
+            {% with results.count as total_results %}
+                Found {{ total_results }} result{{ total_results|pluralize }} for {{ query }}.
+            {% endwith %}
+        </h3>
+
+        {% for post in results %}
+            <div class="card mb-4">
+              <div class="card-body">
+                <h5 class="card-title"><a href="{{ post.get_absolute_url }}">{{ post.title }}</a></h5>
+                <p class="card-text">{{ post.body|markdown|truncatewords_html:30 }}</p>
+              </div>
+              <div class="card-footer text-muted">
+                Published {{ post.publish }} by {{ post.author }}
+              </div>
+            </div>
+        {% empty %}
+            <p>There are no results for {{ query }}.</p>
+        {% endfor %}
+    {% else %}
+        <h2 class="my-4">
+            Search for posts
+        </h2>
+        <form method="get">
+            <div class="form-row">
+            <div class="form-group col-md-12">
+                {% render_field form.query class="form-control" placeholder="Your search term here" %}
+            </div>
+          </div>
+          <button type="submit" class="btn btn-primary">Search</button>
+        </form>
+    {% endif %}
+{% endblock %}

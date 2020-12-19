@@ -1,0 +1,45 @@
+{% extends 'blog/base.html' %}
+{% load widget_tweaks %}
+{% load crispy_forms_tags %}
+
+{% block title %}Share a post{% endblock %}
+{% block content %}
+    {% if sent %}
+        <h2 style="margin-top:10px">E-mail successfully sent!</h2>
+        <p>
+            <strong>"{{ post.title }}"</strong> was successfully sent to <strong>{{ form.cleaned_data.to }}</strong>.
+        </p>
+    {% else %}
+        <h2 class="my-4">
+            Share "{{ post.title }}" by e-mail
+        </h2>
+        <form method="post">
+          {% csrf_token %}
+          <div class="form-row">
+            <div class="form-group col-md-6">
+                {{ form.firstname.label_tag }}
+                {% render_field form.firstname class="form-control" placeholder="First name" %}
+            </div>
+            <div class="form-group col-md-6">
+                {{ form.lastname.label_tag }}
+                {% render_field form.lastname class="form-control" placeholder="Last name" %}
+            </div>
+          </div>
+          <div class="form-row">
+            <div class="form-group col-md-6">
+                {{ form.email.label_tag }}
+                {% render_field form.email class="form-control" placeholder="Your email" %}
+            </div>
+            <div class="form-group col-md-6">
+                {{ form.to.label_tag }}
+                {% render_field form.to class="form-control" placeholder="Recipient email" %}
+            </div>
+          </div>
+          <div class="form-group">
+              {{ form.comment.label_tag }}
+              {% render_field form.comment class="form-control" placeholder="Your comment here..." rows=4 %}
+          </div>
+          <button type="submit" class="btn btn-primary">Share Post</button>
+        </form>
+    {% endif %}
+{% endblock %}
