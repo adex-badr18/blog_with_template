@@ -1,0 +1,68 @@
+<!-- Footer -->
+<footer class="py-5 bg-dark">
+  <div class="container">
+    <div class="row">
+      <!--About Company-->
+      <div class="col-md-6">
+        <div class="media">
+          <img class="align-self-start mr-3" width="70" height="70" src="{{ about.logo.url }}" alt="Zauren Baba TV">
+          <div class="media-body text-white">
+            <h4 class="mt-0">{{ about.name }}</h4>
+            <p class="">{{ about.about }}</p>
+          </div>
+        </div>
+      </div>
+
+      <!--Social media links-->
+      <div class="col-md-4 offset-md-2">
+        <h4 class="text-white mb-3">Social Media Links</h4>
+        <ul class="list-inline mb-3">
+          <li class="list-inline-item">
+            <a class="social-link rounded-circle" href="#!">
+              <h3><i class="fab fa-facebook-square" style="color:#3b5998"></i></h3>
+            </a>
+          </li>
+          <li class="list-inline-item">
+            <a class="social-link btn-floating rounded-circle" href="#!">
+              <h3><i class="fab fa-twitter-square" style="color:#1da1f2"></i></h3>
+            </a>
+          </li>
+          <li class="list-inline-item">
+            <a class="social-link rounded-circle" href="#!">
+              <h3><i class="fab fa-telegram" style="color:#0088cc"></i></h3>
+            </a>
+          </li>
+          <li class="list-inline-item">
+            <a class="social-link rounded-circle" href="#!">
+              <h3><i class="fab fa-youtube" style="color:#ff0000"></i></h3>
+            </a>
+          </li>
+          <li class="list-inline-item">
+            <a class="social-link rounded-circle" href="#!">
+              <h3><i class="fab fa-whatsapp" style="color:#25d366"></i></h3>
+            </a>
+          </li>
+          <li class="list-inline-item">
+            <a class="social-link rounded-circle" href="#!">
+              <h3><i class="fab fa-instagram" style="color:#3f729b"></i></h3>
+            </a>
+          </li>
+        </ul>
+        <h4 class="text-white mb-3">Contact</h4>
+        <ul class="list-unstyled text-white">
+          <li>
+              <p><i class="fas fa-phone-alt mr-3"></i>{{ contact.phone }}</p>
+          </li>
+          <li>
+            <p><i class="fas fa-map-marker-alt mr-3"></i>{{ contact.address }}</p>
+          </li>
+          <li>
+            <p><i class="far fa-envelope mr-3"></i>{{ contact.email }}</p>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <p class="m-0 text-center text-white">Copyright &copy; {{ about.name }} {% now 'Y' %}</p>
+  </div>
+  <!-- /.container -->
+</footer>

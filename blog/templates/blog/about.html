@@ -1,17 +1,18 @@
 {% extends "blog/base.html" %}
 {% load blog_tags %}
+{% load static %}
 
 {% block title %}About{% endblock%}
 
 {% block content %}
     <!-- Title -->
-    <h1 class="mt-4">About Badrudeen's Blog</h1>
+    <h1 class="mt-4">About {{ about.name }}</h1>
 
     <hr>
 
     <!-- About Heading -->
     <p class="text-justify">
-        {{ about_info.formatted_markdown|safe}}
+        {{ about.formatted_markdown|safe}}
     </p>
 
     <hr>

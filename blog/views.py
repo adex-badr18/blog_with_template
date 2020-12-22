@@ -9,9 +9,15 @@ from django.db.models import Count
 from django.contrib.postgres.search import SearchVector, SearchRank, SearchQuery, TrigramSimilarity
 
 
+about = get_object_or_404(About, id=1)
+contact = get_object_or_404(Contact, id=1)
+
+
 # Create your views here.
 def index(request, tag_slug=None):  # function-based view.
     objects_list = Post.published.all()
+    about = get_object_or_404(About, id=1)
+    contact = get_object_or_404(Contact, id=1)
     tag = None
 
     if tag_slug:
@@ -31,7 +37,9 @@ def index(request, tag_slug=None):  # function-based view.
                   'blog/post/index.html',
                   {'posts': posts,
                    'page': page,
-                   'tag': tag, })
+                   'tag': tag,
+                   'about': about,
+                   'contact': contact, })
 
 
 # class PostListView(ListView):  # Class-based view.
@@ -47,6 +55,8 @@ def post_detail(request, year, month, day, post):
                              publish__year=year,
                              publish__month=month,
                              publish__day=day)
+    about = get_object_or_404(About, id=1)
+    contact = get_object_or_404(Contact, id=1)
 
     # List of active comments for the current post.
     comments = post.comments.filter(active=True)
@@ -77,12 +87,16 @@ def post_detail(request, year, month, day, post):
                                                      'comments': comments,
                                                      'new_comment': new_comment,
                                                      'comment_form': comment_form,
-                                                     'similar_posts': similar_posts})
+                                                     'similar_posts': similar_posts,
+                                                     'about': about,
+                                                     'contact': contact})
 
 
 def post_share(request, post_id):
     #  Retrieve post by id.
     post = get_object_or_404(Post, id=post_id, status='published')
+    about = get_object_or_404(About, id=1)
+    contact = get_object_or_404(Contact, id=1)
     sent = False
     if request.method == 'POST':
         #  Form was submitted.
@@ -105,10 +119,14 @@ def post_share(request, post_id):
 
     return render(request, 'blog/post/share.html', {'post': post,
                                                     'form': form,
-                                                    'sent': sent})
+                                                    'sent': sent,
+                                                    'about': about,
+                                                    'contact': contact})
 
 
 def post_search(request):
+    about = get_object_or_404(About, id=1)
+    contact = get_object_or_404(Contact, id=1)
     form = SearchForm()
     query = None
     results = []
@@ -129,16 +147,17 @@ def post_search(request):
             # trigram functionality
             results = Post.published.annotate(similarity=TrigramSimilarity('title', query),
                                               ).filter(similarity__gt=0.1).order_by('-similarity')
-    return render(request, 'blog/post/search.html', {
-        'form': form,
-        'query': query,
-        'results': results
-    })
+    return render(request, 'blog/post/search.html', {'form': form,
+                                                     'query': query,
+                                                     'results': results,
+                                                     'about': about,
+                                                     'contact': contact})
 
 
 def contact(request):
     #  Retrieve post by id.
-    heading = get_object_or_404(Contact, id=1)
+    contact = get_object_or_404(Contact, id=1)
+    about = get_object_or_404(About, id=1)
     sent = False
     if request.method == 'POST':
         #  Form was submitted.
@@ -150,16 +169,19 @@ def contact(request):
             subject = f"CONTACT from: {cd['name']}"
             message = cd['comment']
             send_mail(subject, message, cd['email'],
-                      [heading.email])
+                      [contact.email])
             sent = True
     else:
         form = ContactForm()
 
-    return render(request, 'blog/contact.html', {'heading': heading,
+    return render(request, 'blog/contact.html', {'contact': contact,
                                                  'form': form,
-                                                 'sent': sent})
+                                                 'sent': sent,
+                                                 'about': about})
 
 
 def about(request):
-    about_info = get_object_or_404(About, id=1)
-    return render(request, 'blog/about.html', {'about_info': about_info})
+    about = get_object_or_404(About, id=1)
+    contact = get_object_or_404(Contact, id=1)
+    return render(request, 'blog/about.html', {'about': about,
+                                               'contact': contact})

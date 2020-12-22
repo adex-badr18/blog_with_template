@@ -24,9 +24,9 @@ class CommentAdmin(admin.ModelAdmin):
 
 @admin.register(Contact)
 class ContactAdmin(admin.ModelAdmin):
-    list_display = ('heading', 'phone', 'email')
+    list_display = ('heading', 'phone', 'email', 'address')
 
 
 @admin.register(About)
 class AboutAdmin(admin.ModelAdmin):
-    list_display = ('about',)
+    list_display = ('name', 'about', 'logo')

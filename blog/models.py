@@ -6,7 +6,10 @@ from taggit.managers import TaggableManager
 from markdownx.models import MarkdownxField
 from markdownx.utils import markdownify
 from django import forms
+from django.core.files.storage import FileSystemStorage
 from phone_field import PhoneField
+
+fs = FileSystemStorage(location='blog/static/site_img/')
 
 # Create your models here.
 # class Post(models.Model):
@@ -47,7 +50,7 @@ class Post(models.Model):
     author = models.ForeignKey(User, on_delete=models.CASCADE, related_name='blog_posts')
     # body = models.TextField()
     body = MarkdownxField()
-    post_img = models.ImageField(upload_to='images/', null=True)
+    post_img = models.ImageField(upload_to='post_images/', null=True)
     publish = models.DateTimeField(default=timezone.now)
     created = models.DateTimeField(auto_now_add=True)
     updated = models.DateTimeField(auto_now=True)
@@ -97,6 +100,7 @@ class Contact(models.Model):
     heading = MarkdownxField()
     phone = PhoneField(blank=True, help_text="Company's Phone number")
     email = models.EmailField()
+    address = models.TextField(default='')
 
     def __str__(self):
         return self.heading
@@ -109,9 +113,11 @@ class Contact(models.Model):
 
 class About(models.Model):
     about = MarkdownxField()
+    name = models.CharField(max_length=20, default='')
+    logo = models.ImageField(upload_to='site_images/', null=True)
 
     def __str__(self):
-        return self.about
+        return self.name
 
     # Create a property that returns the markdown instead
     @property
