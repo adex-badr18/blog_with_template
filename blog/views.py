@@ -1,4 +1,5 @@
-from django.shortcuts import render, get_object_or_404, HttpResponseRedirect
+from django.shortcuts import render, get_object_or_404, HttpResponseRedirect, redirect
+from django.http import HttpResponse
 from .models import Post, Comment, Contact, About
 from django.core.paginator import Paginator, EmptyPage, PageNotAnInteger
 from django.views.generic import ListView
@@ -7,7 +8,6 @@ from django.core.mail import send_mail
 from taggit.models import Tag
 from django.db.models import Count
 from django.contrib.postgres.search import SearchVector, SearchRank, SearchQuery, TrigramSimilarity
-
 
 about = get_object_or_404(About, id=1)
 contact = get_object_or_404(Contact, id=1)

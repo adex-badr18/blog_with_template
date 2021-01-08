@@ -28,6 +28,20 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <script>
+    $(function () {
+      $('[data-toggle="popover"]').popover({
+        html: true,
+        content: function() {
+          return $('#popover-content').html();
+        }
+      })
+    })
+
+    $('.popover-dismiss').popover({
+      trigger: 'focus'
+    })
+  </script>
 </head>
 
 <body>
@@ -94,6 +108,9 @@
         </div>
       </div>
 
+      <!-- Newsletter Widget -->
+<!--      -->
+
       <!-- Trending Posts Widget -->
       <div class="card my-4">
         <h5 class="card-header">Trending</h5>
@@ -121,7 +138,7 @@
       <div class="card my-4">
         <h5 class="card-header">RSS Feed</h5>
         <div class="card-body">
-          Subscribe to our RSS feed to stay tuned on our latest stories and enjoy our services.
+          <p class="mb-3">Subscribe to our RSS feed to stay tuned on our latest stories and enjoy our services.</p>
           <a class="btn btn-block btn-secondary" href="{% url 'blog:post_feed' %}" target="_blank">Subscribe to our RSS feed</a>
         </div>
       </div>

@@ -1,4 +1,4 @@
-"""mysite URL Configuration
+"""mysite_with_template URL Configuration
 
 The `urlpatterns` list routes URLs to views. For more information please see:
     https://docs.djangoproject.com/en/3.0/topics/http/urls/
@@ -29,12 +29,11 @@ sitemaps = {
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('blog/', include('blog.urls', namespace='blog')),
+    path('', include('blog.urls', namespace='blog')),
     path('sitemap.xml', sitemap, {'sitemaps': sitemaps}, name='django.contrib.sitemaps.views.sitemap'),
     path('avatar/', include('avatar.urls')),
     path('markdownx/', include('markdownx.urls')),
 ]
-
 
 
 if settings.DEBUG:

@@ -7,7 +7,7 @@
 {% block title %}Contact{% endblock%}
 {% block content %}
     <!-- Title -->
-    <h1 class="mt-4">Contact</h1>
+    <h1 class="mt-4">Contact Us</h1>
 
     <hr>
 
@@ -18,51 +18,78 @@
 
     <hr>
 
-    <div class="container">
-        <div class="row">
-            <div class="col mb-5">
-              <span class="service-icon mx-auto mb-3">
-                <h5><i class="fas fa-phone-alt text-secondary">&nbsp;&nbsp;{{ contact.phone }}</i></h5>
-              </span>
-            </div>
-            <div class="col mb-5">
-              <span class="service-icon mx-auto mb-3">
-                <h5 class="text-secondary"><i class="fas fa-envelope">&nbsp;&nbsp;<a href="mailto:{{ contact.email }}" class="text-secondary">Send us an Email</a></i></h5>
-              </span>
-            </div>
+<!--    <div class="container">-->
+<!--        <div class="row">-->
+<!--            <div class="col mb-5">-->
+<!--              <span class="service-icon mx-auto mb-3">-->
+<!--                <h5><i class="fas fa-phone-alt text-secondary">&nbsp;&nbsp;{{ contact.phone }}</i></h5>-->
+<!--              </span>-->
+<!--            </div>-->
+<!--            <div class="col mb-5">-->
+<!--              <span class="service-icon mx-auto mb-3">-->
+<!--                <h5 class="text-secondary"><i class="fas fa-envelope">&nbsp;&nbsp;<a href="mailto:{{ contact.email }}" class="text-secondary">Send us an Email</a></i></h5>-->
+<!--              </span>-->
+<!--            </div>-->
+<!--        </div>-->
+<!--    </div>-->
+
+<!-- Contact form-->
+    {% if sent %}
+        <h2>Message successfully sent.</h2>
+        <p>
+            Your message was successfully sent to {{ contact.email }}.
+        </p>
+
+        <a href="{% url 'blog:contact' %}">Submit another message</a>
+    {% else %}
+        <div class="container mb-5">
+            <form method="post">
+              {% csrf_token %}
+              {% for field in form.visible_fields %}
+                  <div class="form-group">
+                    {{ field.label_tag }}
+                    {% render_field field class="form-control" rows=4 %}
+                    {% if field.help_text %}
+                      <small class="form-text text-muted">{{ field.help_text }}</small>
+                    {% endif %}
+                  </div>
+              {% endfor %}
+              <button type="submit" class="btn btn-primary">Submit</button>
+            </form>
         </div>
-    </div>
+    {% endif %}
 
     <div class="container text-center">
-      <ul class="list-inline mb-5">
+      <h5>Contact us via our social media pages.</h5>
+      <ul class="list-inline mb-3">
         <li class="list-inline-item">
-          <a class="social-link rounded-circle mr-3" href="#!">
-              <i class="fab fa-3x fa-facebook-square" style="color:#3b5998"></i>
+          <a class="social-link rounded-circle" href="https://web.facebook.com/Zauren-Baba-TV-100945448296407/" target="_blank">
+              <h2><i class="fab fa-facebook-square" style="color:#3b5998"></i></h2>
           </a>
         </li>
         <li class="list-inline-item">
-          <a class="social-link btn-floating rounded-circle mr-3" href="#!">
-            <i class="fab fa-3x fa-twitter-square" style="color:#1da1f2"></i>
+          <a class="social-link btn-floating rounded-circle" href="https://twitter.com/ZaurenTv" target="_blank">
+            <h2><i class="fab fa-twitter-square" style="color:#1da1f2"></i></h2>
           </a>
         </li>
         <li class="list-inline-item">
-          <a class="social-link rounded-circle" href="#!">
-            <i class="fab fa-3x fa-telegram" style="color:#0088cc"></i>
+          <a class="social-link rounded-circle" href="https://t.me/namunakune">
+            <h2><i class="fab fa-telegram" style="color:#0088cc"></i></h2>
           </a>
         </li>
         <li class="list-inline-item">
-          <a class="social-link rounded-circle" href="#!">
-            <i class="fab fa-3x fa-linkedin-square" style="color:#0077b5"></i>
+          <a class="social-link rounded-circle" href="https://www.instagram.com/zauren_baba/" target="_blank">
+            <h2><i class="fab fa-instagram" style="color:#3f729b"></i></h2>
           </a>
         </li>
         <li class="list-inline-item">
-          <a class="social-link rounded-circle" href="#!">
-            <i class="fab fa-3x fa-youtube" style="color:#ff0000"></i>
+          <a class="social-link rounded-circle" href="https://www.youtube.com/channel/UCTKOewWBt-6wZ-xd2yh-U7Q" target="_blank">
+            <h2><i class="fab fa-youtube" style="color:#ff0000"></i></h2>
           </a>
-        </li>&nbsp;&nbsp;
+        </li>
         <li class="list-inline-item">
-          <a class="social-link rounded-circle" href="#!">
-            <i class="fab fa-3x fa-whatsapp" style="color:#25d366"></i>
+          <a class="social-link rounded-circle" href="https://chat.whatsapp.com/LaRg6p4XUBIAFFPoC6MCbs" target="_blank">
+            <h2><i class="fab fa-whatsapp" style="color:#25d366"></i></h2>
           </a>
         </li>
       </ul>
@@ -118,29 +145,4 @@
 <!--      </div>-->
 <!--    </div>-->
 
-    <!-- Contact form-->
-    {% if sent %}
-        <h2>Message successfully sent.</h2>
-        <p>
-            Your message was successfully sent to {{ heading.email }}.
-        </p>
-
-        <a href="{% url 'blog:contact' %}">Submit another message</a>
-    {% else %}
-        <div class="container">
-            <form method="post">
-          {% csrf_token %}
-          {% for field in form.visible_fields %}
-              <div class="form-group">
-                {{ field.label_tag }}
-                {% render_field field class="form-control" rows=4 %}
-                {% if field.help_text %}
-                  <small class="form-text text-muted">{{ field.help_text }}</small>
-                {% endif %}
-              </div>
-          {% endfor %}
-          <button type="submit" class="btn btn-primary">Submit</button>
-        </form>
-        </div>
-    {% endif %}
 {% endblock %}
