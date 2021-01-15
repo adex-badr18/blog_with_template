@@ -1,7 +1,5 @@
 from django import forms
 from .models import Comment
-from crispy_forms.helper import FormHelper
-from crispy_forms.layout import Layout, Submit, Row, Column
 
 
 class EmailPostForm(forms.Form):
@@ -20,14 +18,6 @@ class CommentForm(forms.ModelForm):
 
 class SearchForm(forms.Form):
     query = forms.CharField()
-
-    # def __init__(self, *args, **kwargs):
-    #     super().__init__(*args, **kwargs)
-    #     self.helper = FormHelper()
-    #     self.helper.layout = Layout(
-    #         'query',
-    #         Submit('submit', 'Submit Comment')
-    #     )
 
 
 class ContactForm(forms.Form):

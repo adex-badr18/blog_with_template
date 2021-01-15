@@ -10,8 +10,6 @@ from django.core.files.storage import FileSystemStorage
 from phone_field import PhoneField
 
 
-fs = FileSystemStorage(location='blog/static/site_img/')
-
 # how to create a custom manager to retrieve all published posts.
 class PublishedManager(models.Manager):
     def get_queryset(self):

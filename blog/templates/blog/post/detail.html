@@ -32,7 +32,6 @@
 <hr>
 
 <!-- Post Content -->
-<!--    {{ post.body|markdown }}-->
 {{ post.formatted_markdown|safe}}
 <hr>
 
@@ -54,33 +53,35 @@
 <!--    </p>-->
 
 <a role="button" tabindex="0" class="btn btn-secondary" data-container="body" data-toggle="popover" data-trigger="focus"
-        data-placement="right">
+   data-placement="right">
     <i class="fas fa-1x fa-share-alt">&nbsp;&nbsp;Share post</i>
 </a>
 
 <div class="" id="popover-content" style="display: none">
     <ul class="list-inline mb-0">
         <li class="list-inline-item">
-            <a class="social-link rounded-circle" href="{% post_to_facebook_url post.get_absolute_url %}"
-               target="_blank">
-                <h3><i class="fab fa-facebook-square" style="color:#3b5998"></i></h3>
-            </a>
+            {% post_to_facebook post.get_absolute_url '<h3><i class="fab fa-facebook-square" style="color:#3b5998"></i></h3>' %}
         </li>
         <li class="list-inline-item">
-            <a class="social-link btn-floating rounded-circle" href="{% post_to_twitter_url post.get_absolute_url %}" target="_blank">
-                <h3><i class="fab fa-twitter-square" style="color:#1da1f2"></i></h3>
-            </a>
+<!--            <a class="social-link btn-floating rounded-circle" href="{% post_to_twitter_url post.get_absolute_url %}"-->
+<!--               target="_blank">-->
+<!--                <h3><i class="fab fa-twitter-square" style="color:#1da1f2"></i></h3>-->
+<!--            </a>-->
+            {% post_to_twitter "{{post.title}}" post.get_absolute_url '<h3><i class="fab fa-twitter-square" style="color:#1da1f2"></i></h3>' %}
         </li>
         <li class="list-inline-item">
-            <a class="social-link rounded-circle" href="{% post_to_telegram_url post.title post.get_absolute_url %}" target="_blank">
-                <h3><i class="fab fa-telegram" style="color:#0088cc"></i></h3>
-            </a>
+<!--            <a class="social-link rounded-circle" href="{% post_to_telegram_url post.title post.get_absolute_url %}"-->
+<!--               target="_blank">-->
+<!--                <h3><i class="fab fa-telegram" style="color:#0088cc"></i></h3>-->
+<!--            </a>-->
+            {% post_to_telegram "{{post.title}}" post.get_absolute_url '<h3><i class="fab fa-telegram" style="color:#0088cc"></i></h3>' %}
         </li>
         <li class="list-inline-item">
-            <a class="social-link rounded-circle" href="{% post_to_whatsapp_url post.get_absolute_url %}"
-               target="_blank">
-                <h3><i class="fab fa-whatsapp" style="color:#25d366"></i></h3>
-            </a>
+<!--            <a class="social-link rounded-circle" href="{% post_to_whatsapp_url post.get_absolute_url %}"-->
+<!--               target="_blank">-->
+<!--                <h3><i class="fab fa-whatsapp" style="color:#25d366"></i></h3>-->
+<!--            </a>-->
+            {% post_to_whatsapp post.get_absolute_url '<h3><i class="fab fa-whatsapp" style="color:#25d366"></i></h3>' %}
         </li>
         <li class="list-inline-item">
             <a class="social-link rounded-circle" href="{% url 'blog:post_share' post.id %}">
@@ -161,13 +162,9 @@
             <div class="form-row">
                 <div class="form-group col-md-6">
                     {% render_field comment_form.name class="form-control" placeholder=comment_form.name.label %}
-                    <!--                    {{ comment_form.name|as_crispy_field }}-->
-                    <!--                  <input type="text" class="form-control" placeholder="Name">-->
                 </div>
                 <div class="form-group col-md-6">
                     {% render_field comment_form.email class="form-control" placeholder=comment_form.email.label %}
-                    <!--                    {{ comment_form.email|as_crispy_field }}-->
-                    <!--                  <input type="email" class="form-control" placeholder="Email">-->
                 </div>
             </div>
             <div class="form-group">
