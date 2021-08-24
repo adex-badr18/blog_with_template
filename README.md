@@ -1,4 +1,5 @@
 # blog_with_template
-blog with template
+A simple Django blog
 
-My first Django blog template
+Visit the link below to preview.
+http://badru2gex.pythonanywhere.com/
