@@ -1,0 +1,2669 @@
+[
+{
+    "model": "contenttypes.contenttype",
+    "pk": 1,
+    "fields": {
+        "app_label": "admin",
+        "model": "logentry"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 2,
+    "fields": {
+        "app_label": "auth",
+        "model": "permission"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 3,
+    "fields": {
+        "app_label": "auth",
+        "model": "group"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 4,
+    "fields": {
+        "app_label": "auth",
+        "model": "user"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 5,
+    "fields": {
+        "app_label": "contenttypes",
+        "model": "contenttype"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 6,
+    "fields": {
+        "app_label": "sessions",
+        "model": "session"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 7,
+    "fields": {
+        "app_label": "blog",
+        "model": "post"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 8,
+    "fields": {
+        "app_label": "blog",
+        "model": "comment"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 9,
+    "fields": {
+        "app_label": "taggit",
+        "model": "tag"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 10,
+    "fields": {
+        "app_label": "taggit",
+        "model": "taggeditem"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 11,
+    "fields": {
+        "app_label": "sites",
+        "model": "site"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 12,
+    "fields": {
+        "app_label": "avatar",
+        "model": "avatar"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 13,
+    "fields": {
+        "app_label": "blog",
+        "model": "contact"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 14,
+    "fields": {
+        "app_label": "blog",
+        "model": "about"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 15,
+    "fields": {
+        "app_label": "thumbnail",
+        "model": "kvstore"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 16,
+    "fields": {
+        "app_label": "newsletter",
+        "model": "article"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 17,
+    "fields": {
+        "app_label": "newsletter",
+        "model": "message"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 18,
+    "fields": {
+        "app_label": "newsletter",
+        "model": "newsletter"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 19,
+    "fields": {
+        "app_label": "newsletter",
+        "model": "submission"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 20,
+    "fields": {
+        "app_label": "newsletter",
+        "model": "subscription"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 21,
+    "fields": {
+        "app_label": "newsletter",
+        "model": "newsletterusers"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 22,
+    "fields": {
+        "app_label": "blog",
+        "model": "profile"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 23,
+    "fields": {
+        "app_label": "newsletter_app",
+        "model": "newsletterusers"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 24,
+    "fields": {
+        "app_label": "newsletter",
+        "model": "attachment"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "8ewxu2gggrxwxb7kx4he1mqcgbspsyga",
+    "fields": {
+        "session_data": "NmVjOWVlNzczOTA0ZGNmNGEzMTljMDA4NDAwNmE0NzkyNmI3ODBhZDp7Il9hdXRoX3VzZXJfaWQiOiIxIiwiX2F1dGhfdXNlcl9iYWNrZW5kIjoiZGphbmdvLmNvbnRyaWIuYXV0aC5iYWNrZW5kcy5Nb2RlbEJhY2tlbmQiLCJfYXV0aF91c2VyX2hhc2giOiIwZDViMjIxZGE3OTM1NWY1NTc0YmMyZmViYjUyNzE4ZGIyODcwMzQwIn0=",
+        "expire_date": "2021-01-22T16:17:05.656Z"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "eupg8xucwcp2b05k54ng76wjv6q6sdxs",
+    "fields": {
+        "session_data": "NTcyMzhiZGE1OTBhZmJhYjY4ZGU1NjEzMzMxYmEzNDIyNDgxMTEyMzp7fQ==",
+        "expire_date": "2021-01-18T13:02:03.385Z"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "gkikmyjol2rwx5499t88fy2spy2llpnv",
+    "fields": {
+        "session_data": "NmVjOWVlNzczOTA0ZGNmNGEzMTljMDA4NDAwNmE0NzkyNmI3ODBhZDp7Il9hdXRoX3VzZXJfaWQiOiIxIiwiX2F1dGhfdXNlcl9iYWNrZW5kIjoiZGphbmdvLmNvbnRyaWIuYXV0aC5iYWNrZW5kcy5Nb2RlbEJhY2tlbmQiLCJfYXV0aF91c2VyX2hhc2giOiIwZDViMjIxZGE3OTM1NWY1NTc0YmMyZmViYjUyNzE4ZGIyODcwMzQwIn0=",
+        "expire_date": "2020-12-08T16:23:29.385Z"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "j45qayilymfh3z42g1czifjkqlwu28q6",
+    "fields": {
+        "session_data": "NmVjOWVlNzczOTA0ZGNmNGEzMTljMDA4NDAwNmE0NzkyNmI3ODBhZDp7Il9hdXRoX3VzZXJfaWQiOiIxIiwiX2F1dGhfdXNlcl9iYWNrZW5kIjoiZGphbmdvLmNvbnRyaWIuYXV0aC5iYWNrZW5kcy5Nb2RlbEJhY2tlbmQiLCJfYXV0aF91c2VyX2hhc2giOiIwZDViMjIxZGE3OTM1NWY1NTc0YmMyZmViYjUyNzE4ZGIyODcwMzQwIn0=",
+        "expire_date": "2021-02-06T13:02:25.653Z"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "lhlo0qj3qtl4y84zddw5yx2myc8py84r",
+    "fields": {
+        "session_data": "NmVjOWVlNzczOTA0ZGNmNGEzMTljMDA4NDAwNmE0NzkyNmI3ODBhZDp7Il9hdXRoX3VzZXJfaWQiOiIxIiwiX2F1dGhfdXNlcl9iYWNrZW5kIjoiZGphbmdvLmNvbnRyaWIuYXV0aC5iYWNrZW5kcy5Nb2RlbEJhY2tlbmQiLCJfYXV0aF91c2VyX2hhc2giOiIwZDViMjIxZGE3OTM1NWY1NTc0YmMyZmViYjUyNzE4ZGIyODcwMzQwIn0=",
+        "expire_date": "2021-01-02T13:57:45.535Z"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "mgmx5a82cxhpq9vs07nlsqi8f86n7x6y",
+    "fields": {
+        "session_data": "NmVjOWVlNzczOTA0ZGNmNGEzMTljMDA4NDAwNmE0NzkyNmI3ODBhZDp7Il9hdXRoX3VzZXJfaWQiOiIxIiwiX2F1dGhfdXNlcl9iYWNrZW5kIjoiZGphbmdvLmNvbnRyaWIuYXV0aC5iYWNrZW5kcy5Nb2RlbEJhY2tlbmQiLCJfYXV0aF91c2VyX2hhc2giOiIwZDViMjIxZGE3OTM1NWY1NTc0YmMyZmViYjUyNzE4ZGIyODcwMzQwIn0=",
+        "expire_date": "2021-01-18T13:06:38.773Z"
+    }
+},
+{
+    "model": "blog.comment",
+    "pk": 3,
+    "fields": {
+        "post": 4,
+        "name": "Ahmad",
+        "email": "ahmd@gmail.com",
+        "comment": "What a country",
+        "created": "2020-11-26T16:37:39.075Z",
+        "updated": "2020-11-26T16:37:39.075Z",
+        "active": true
+    }
+},
+{
+    "model": "blog.comment",
+    "pk": 4,
+    "fields": {
+        "post": 4,
+        "name": "Ade",
+        "email": "ade@gmail.com",
+        "comment": "May God revive this country",
+        "created": "2020-11-26T19:26:25.003Z",
+        "updated": "2020-11-26T19:26:25.003Z",
+        "active": true
+    }
+},
+{
+    "model": "blog.comment",
+    "pk": 5,
+    "fields": {
+        "post": 2,
+        "name": "Mos'ood",
+        "email": "mos@gmail.com",
+        "comment": "The level of clash during this corona no be small thing. May Allah just see us through. I can't just Imagine how prison guards can just ridicule themselves by fighting motorcycle riders.",
+        "created": "2020-11-27T20:32:12.471Z",
+        "updated": "2020-11-27T20:32:12.471Z",
+        "active": true
+    }
+},
+{
+    "model": "blog.comment",
+    "pk": 6,
+    "fields": {
+        "post": 3,
+        "name": "Shukroh",
+        "email": "shuk@gmail.com",
+        "comment": "May God help us with this high rate of insurgency in Nigeria.",
+        "created": "2020-11-27T22:06:00.252Z",
+        "updated": "2020-11-27T22:06:00.252Z",
+        "active": true
+    }
+},
+{
+    "model": "blog.comment",
+    "pk": 7,
+    "fields": {
+        "post": 3,
+        "name": "Abdullah",
+        "email": "abd@gmail.com",
+        "comment": "Nigeria and insurgency part 2",
+        "created": "2020-12-03T02:36:04.371Z",
+        "updated": "2020-12-03T02:36:04.371Z",
+        "active": true
+    }
+},
+{
+    "model": "blog.comment",
+    "pk": 8,
+    "fields": {
+        "post": 3,
+        "name": "Modinah",
+        "email": "mod@gmail.com",
+        "comment": "What an insecure nation!",
+        "created": "2020-12-15T19:28:02.751Z",
+        "updated": "2020-12-15T19:28:02.751Z",
+        "active": true
+    }
+},
+{
+    "model": "blog.comment",
+    "pk": 9,
+    "fields": {
+        "post": 4,
+        "name": "Abdullah",
+        "email": "abd@gmail.com",
+        "comment": "Recession looming",
+        "created": "2020-12-15T19:54:51.776Z",
+        "updated": "2020-12-15T19:54:51.776Z",
+        "active": true
+    }
+},
+{
+    "model": "blog.comment",
+    "pk": 10,
+    "fields": {
+        "post": 4,
+        "name": "Mos'ood",
+        "email": "mos@gmail.com",
+        "comment": "God help us out",
+        "created": "2020-12-15T19:56:09.060Z",
+        "updated": "2020-12-15T19:56:09.060Z",
+        "active": true
+    }
+},
+{
+    "model": "blog.comment",
+    "pk": 11,
+    "fields": {
+        "post": 2,
+        "name": "Ade",
+        "email": "ade@gmail.com",
+        "comment": "We need OT in dis country",
+        "created": "2020-12-15T20:11:36.747Z",
+        "updated": "2020-12-15T20:11:36.747Z",
+        "active": true
+    }
+},
+{
+    "model": "blog.comment",
+    "pk": 12,
+    "fields": {
+        "post": 1,
+        "name": "Sambo",
+        "email": "sambo@gmail.com",
+        "comment": "What a shameless man!",
+        "created": "2020-12-22T08:20:32.782Z",
+        "updated": "2021-01-23T13:11:10.299Z",
+        "active": true
+    }
+},
+{
+    "model": "blog.comment",
+    "pk": 13,
+    "fields": {
+        "post": 1,
+        "name": "Dawood",
+        "email": "dawud@gmail.com",
+        "comment": "He shouldn't have agreed the transition. yeye man",
+        "created": "2020-12-25T11:14:34.288Z",
+        "updated": "2021-01-23T13:11:55.347Z",
+        "active": true
+    }
+},
+{
+    "model": "blog.comment",
+    "pk": 14,
+    "fields": {
+        "post": 3,
+        "name": "sadiya",
+        "email": "sadiya@gmail.com",
+        "comment": "Insecurity is now a trade in Nigeria",
+        "created": "2020-12-25T11:18:50.398Z",
+        "updated": "2020-12-25T11:18:50.398Z",
+        "active": true
+    }
+},
+{
+    "model": "blog.comment",
+    "pk": 15,
+    "fields": {
+        "post": 3,
+        "name": "Yahya",
+        "email": "yahya@yahoo.com",
+        "comment": "This is happening in a country wey get predsident, na wa",
+        "created": "2021-01-08T15:46:35.244Z",
+        "updated": "2021-01-08T15:46:35.244Z",
+        "active": true
+    }
+},
+{
+    "model": "blog.comment",
+    "pk": 16,
+    "fields": {
+        "post": 5,
+        "name": "Shukroh",
+        "email": "v@gmail.com",
+        "comment": "dhhh",
+        "created": "2021-02-09T23:04:55.995Z",
+        "updated": "2021-02-09T23:04:55.995Z",
+        "active": true
+    }
+},
+{
+    "model": "blog.comment",
+    "pk": 17,
+    "fields": {
+        "post": 5,
+        "name": "ygytrrh",
+        "email": "badru.2gex@gmail.com",
+        "comment": "adewtgrghtrgt",
+        "created": "2021-04-06T17:15:10.588Z",
+        "updated": "2021-04-06T17:15:10.588Z",
+        "active": true
+    }
+},
+{
+    "model": "blog.contact",
+    "pk": 1,
+    "fields": {
+        "heading": "Hello! Welcome to Zauren Baba TV. Want to get in touch with us? Use the simple form below or use any of the social media links below and let us know how we can help.",
+        "phone": "+2348064844004",
+        "email": "Zaurenbaba@gmail.com",
+        "address": "404, gandu layout, opposite Ummi Plaza, Kano, Kano State."
+    }
+},
+{
+    "model": "blog.about",
+    "pk": 1,
+    "fields": {
+        "about": "Zauren Baba TV itace tasha ta farko a Youtube da take yada shirye shirye don raya al'adun hausawa da wayar da kan matasa kan illar shaye shaye, muna gabatar da shirye shiryen da suka hadar da: mazan fama wanda ake hira da mafarauta da sauran wadanda suka shahara a sana'o'in hausawa, akwai Kano da kewayenta shirin da yake kawo tarihin kofofin da unguwannin Kano, akwai Mazan jiya shirin da yake kawo tarihin magabatan da muke alfahari dasu a arewacin Najeria, dama sauran shirye shirye",
+        "name": "Zauren Baba TV",
+        "logo": "site_images/logo2.png"
+    }
+},
+{
+    "model": "taggit.tag",
+    "pk": 1,
+    "fields": {
+        "name": "news",
+        "slug": "news"
+    }
+},
+{
+    "model": "taggit.tag",
+    "pk": 2,
+    "fields": {
+        "name": "united state of America",
+        "slug": "united-state-of-america"
+    }
+},
+{
+    "model": "taggit.tag",
+    "pk": 3,
+    "fields": {
+        "name": "oyo",
+        "slug": "oyo"
+    }
+},
+{
+    "model": "taggit.tag",
+    "pk": 4,
+    "fields": {
+        "name": "breaking news",
+        "slug": "breaking-news"
+    }
+},
+{
+    "model": "taggit.tag",
+    "pk": 5,
+    "fields": {
+        "name": "insurgency",
+        "slug": "insurgency"
+    }
+},
+{
+    "model": "taggit.tag",
+    "pk": 6,
+    "fields": {
+        "name": "insecurity",
+        "slug": "insecurity"
+    }
+},
+{
+    "model": "taggit.tag",
+    "pk": 7,
+    "fields": {
+        "name": "business",
+        "slug": "business"
+    }
+},
+{
+    "model": "taggit.tag",
+    "pk": 8,
+    "fields": {
+        "name": "cbn",
+        "slug": "cbn"
+    }
+},
+{
+    "model": "taggit.tag",
+    "pk": 9,
+    "fields": {
+        "name": "boko haram",
+        "slug": "boko-haram"
+    }
+},
+{
+    "model": "taggit.tag",
+    "pk": 10,
+    "fields": {
+        "name": "cameroun",
+        "slug": "cameroun"
+    }
+},
+{
+    "model": "taggit.tag",
+    "pk": 11,
+    "fields": {
+        "name": "almajiri",
+        "slug": "almajiri"
+    }
+},
+{
+    "model": "taggit.tag",
+    "pk": 12,
+    "fields": {
+        "name": "north",
+        "slug": "north"
+    }
+},
+{
+    "model": "taggit.tag",
+    "pk": 13,
+    "fields": {
+        "name": "hisbah",
+        "slug": "hisbah"
+    }
+},
+{
+    "model": "taggit.tag",
+    "pk": 14,
+    "fields": {
+        "name": "kano",
+        "slug": "kano"
+    }
+},
+{
+    "model": "taggit.tag",
+    "pk": 15,
+    "fields": {
+        "name": "immoral acts",
+        "slug": "immoral-acts"
+    }
+},
+{
+    "model": "taggit.taggeditem",
+    "pk": 1,
+    "fields": {
+        "tag": 1,
+        "content_type": 7,
+        "object_id": 1
+    }
+},
+{
+    "model": "taggit.taggeditem",
+    "pk": 2,
+    "fields": {
+        "tag": 2,
+        "content_type": 7,
+        "object_id": 1
+    }
+},
+{
+    "model": "taggit.taggeditem",
+    "pk": 3,
+    "fields": {
+        "tag": 3,
+        "content_type": 7,
+        "object_id": 2
+    }
+},
+{
+    "model": "taggit.taggeditem",
+    "pk": 4,
+    "fields": {
+        "tag": 4,
+        "content_type": 7,
+        "object_id": 2
+    }
+},
+{
+    "model": "taggit.taggeditem",
+    "pk": 5,
+    "fields": {
+        "tag": 1,
+        "content_type": 7,
+        "object_id": 3
+    }
+},
+{
+    "model": "taggit.taggeditem",
+    "pk": 6,
+    "fields": {
+        "tag": 5,
+        "content_type": 7,
+        "object_id": 3
+    }
+},
+{
+    "model": "taggit.taggeditem",
+    "pk": 7,
+    "fields": {
+        "tag": 6,
+        "content_type": 7,
+        "object_id": 3
+    }
+},
+{
+    "model": "taggit.taggeditem",
+    "pk": 8,
+    "fields": {
+        "tag": 8,
+        "content_type": 7,
+        "object_id": 4
+    }
+},
+{
+    "model": "taggit.taggeditem",
+    "pk": 9,
+    "fields": {
+        "tag": 1,
+        "content_type": 7,
+        "object_id": 4
+    }
+},
+{
+    "model": "taggit.taggeditem",
+    "pk": 10,
+    "fields": {
+        "tag": 7,
+        "content_type": 7,
+        "object_id": 4
+    }
+},
+{
+    "model": "taggit.taggeditem",
+    "pk": 12,
+    "fields": {
+        "tag": 5,
+        "content_type": 7,
+        "object_id": 5
+    }
+},
+{
+    "model": "taggit.taggeditem",
+    "pk": 13,
+    "fields": {
+        "tag": 9,
+        "content_type": 7,
+        "object_id": 5
+    }
+},
+{
+    "model": "taggit.taggeditem",
+    "pk": 14,
+    "fields": {
+        "tag": 10,
+        "content_type": 7,
+        "object_id": 5
+    }
+},
+{
+    "model": "taggit.taggeditem",
+    "pk": 15,
+    "fields": {
+        "tag": 1,
+        "content_type": 7,
+        "object_id": 6
+    }
+},
+{
+    "model": "taggit.taggeditem",
+    "pk": 16,
+    "fields": {
+        "tag": 11,
+        "content_type": 7,
+        "object_id": 6
+    }
+},
+{
+    "model": "taggit.taggeditem",
+    "pk": 17,
+    "fields": {
+        "tag": 12,
+        "content_type": 7,
+        "object_id": 6
+    }
+},
+{
+    "model": "taggit.taggeditem",
+    "pk": 18,
+    "fields": {
+        "tag": 1,
+        "content_type": 7,
+        "object_id": 7
+    }
+},
+{
+    "model": "taggit.taggeditem",
+    "pk": 19,
+    "fields": {
+        "tag": 13,
+        "content_type": 7,
+        "object_id": 7
+    }
+},
+{
+    "model": "taggit.taggeditem",
+    "pk": 20,
+    "fields": {
+        "tag": 14,
+        "content_type": 7,
+        "object_id": 7
+    }
+},
+{
+    "model": "taggit.taggeditem",
+    "pk": 21,
+    "fields": {
+        "tag": 15,
+        "content_type": 7,
+        "object_id": 7
+    }
+},
+{
+    "model": "sites.site",
+    "pk": 1,
+    "fields": {
+        "domain": "example.com",
+        "name": "example.com"
+    }
+},
+{
+    "model": "sites.site",
+    "pk": 2,
+    "fields": {
+        "domain": "127.0.0.1:8000",
+        "name": "localhost"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 1,
+    "fields": {
+        "name": "Can add log entry",
+        "content_type": 1,
+        "codename": "add_logentry"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 2,
+    "fields": {
+        "name": "Can change log entry",
+        "content_type": 1,
+        "codename": "change_logentry"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 3,
+    "fields": {
+        "name": "Can delete log entry",
+        "content_type": 1,
+        "codename": "delete_logentry"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 4,
+    "fields": {
+        "name": "Can view log entry",
+        "content_type": 1,
+        "codename": "view_logentry"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 5,
+    "fields": {
+        "name": "Can add permission",
+        "content_type": 2,
+        "codename": "add_permission"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 6,
+    "fields": {
+        "name": "Can change permission",
+        "content_type": 2,
+        "codename": "change_permission"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 7,
+    "fields": {
+        "name": "Can delete permission",
+        "content_type": 2,
+        "codename": "delete_permission"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 8,
+    "fields": {
+        "name": "Can view permission",
+        "content_type": 2,
+        "codename": "view_permission"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 9,
+    "fields": {
+        "name": "Can add group",
+        "content_type": 3,
+        "codename": "add_group"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 10,
+    "fields": {
+        "name": "Can change group",
+        "content_type": 3,
+        "codename": "change_group"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 11,
+    "fields": {
+        "name": "Can delete group",
+        "content_type": 3,
+        "codename": "delete_group"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 12,
+    "fields": {
+        "name": "Can view group",
+        "content_type": 3,
+        "codename": "view_group"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 13,
+    "fields": {
+        "name": "Can add user",
+        "content_type": 4,
+        "codename": "add_user"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 14,
+    "fields": {
+        "name": "Can change user",
+        "content_type": 4,
+        "codename": "change_user"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 15,
+    "fields": {
+        "name": "Can delete user",
+        "content_type": 4,
+        "codename": "delete_user"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 16,
+    "fields": {
+        "name": "Can view user",
+        "content_type": 4,
+        "codename": "view_user"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 17,
+    "fields": {
+        "name": "Can add content type",
+        "content_type": 5,
+        "codename": "add_contenttype"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 18,
+    "fields": {
+        "name": "Can change content type",
+        "content_type": 5,
+        "codename": "change_contenttype"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 19,
+    "fields": {
+        "name": "Can delete content type",
+        "content_type": 5,
+        "codename": "delete_contenttype"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 20,
+    "fields": {
+        "name": "Can view content type",
+        "content_type": 5,
+        "codename": "view_contenttype"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 21,
+    "fields": {
+        "name": "Can add session",
+        "content_type": 6,
+        "codename": "add_session"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 22,
+    "fields": {
+        "name": "Can change session",
+        "content_type": 6,
+        "codename": "change_session"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 23,
+    "fields": {
+        "name": "Can delete session",
+        "content_type": 6,
+        "codename": "delete_session"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 24,
+    "fields": {
+        "name": "Can view session",
+        "content_type": 6,
+        "codename": "view_session"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 25,
+    "fields": {
+        "name": "Can add post",
+        "content_type": 7,
+        "codename": "add_post"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 26,
+    "fields": {
+        "name": "Can change post",
+        "content_type": 7,
+        "codename": "change_post"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 27,
+    "fields": {
+        "name": "Can delete post",
+        "content_type": 7,
+        "codename": "delete_post"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 28,
+    "fields": {
+        "name": "Can view post",
+        "content_type": 7,
+        "codename": "view_post"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 29,
+    "fields": {
+        "name": "Can add comment",
+        "content_type": 8,
+        "codename": "add_comment"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 30,
+    "fields": {
+        "name": "Can change comment",
+        "content_type": 8,
+        "codename": "change_comment"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 31,
+    "fields": {
+        "name": "Can delete comment",
+        "content_type": 8,
+        "codename": "delete_comment"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 32,
+    "fields": {
+        "name": "Can view comment",
+        "content_type": 8,
+        "codename": "view_comment"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 33,
+    "fields": {
+        "name": "Can add Tag",
+        "content_type": 9,
+        "codename": "add_tag"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 34,
+    "fields": {
+        "name": "Can change Tag",
+        "content_type": 9,
+        "codename": "change_tag"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 35,
+    "fields": {
+        "name": "Can delete Tag",
+        "content_type": 9,
+        "codename": "delete_tag"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 36,
+    "fields": {
+        "name": "Can view Tag",
+        "content_type": 9,
+        "codename": "view_tag"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 37,
+    "fields": {
+        "name": "Can add Tagged Item",
+        "content_type": 10,
+        "codename": "add_taggeditem"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 38,
+    "fields": {
+        "name": "Can change Tagged Item",
+        "content_type": 10,
+        "codename": "change_taggeditem"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 39,
+    "fields": {
+        "name": "Can delete Tagged Item",
+        "content_type": 10,
+        "codename": "delete_taggeditem"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 40,
+    "fields": {
+        "name": "Can view Tagged Item",
+        "content_type": 10,
+        "codename": "view_taggeditem"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 41,
+    "fields": {
+        "name": "Can add site",
+        "content_type": 11,
+        "codename": "add_site"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 42,
+    "fields": {
+        "name": "Can change site",
+        "content_type": 11,
+        "codename": "change_site"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 43,
+    "fields": {
+        "name": "Can delete site",
+        "content_type": 11,
+        "codename": "delete_site"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 44,
+    "fields": {
+        "name": "Can view site",
+        "content_type": 11,
+        "codename": "view_site"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 45,
+    "fields": {
+        "name": "Can add avatar",
+        "content_type": 12,
+        "codename": "add_avatar"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 46,
+    "fields": {
+        "name": "Can change avatar",
+        "content_type": 12,
+        "codename": "change_avatar"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 47,
+    "fields": {
+        "name": "Can delete avatar",
+        "content_type": 12,
+        "codename": "delete_avatar"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 48,
+    "fields": {
+        "name": "Can view avatar",
+        "content_type": 12,
+        "codename": "view_avatar"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 49,
+    "fields": {
+        "name": "Can add contact",
+        "content_type": 13,
+        "codename": "add_contact"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 50,
+    "fields": {
+        "name": "Can change contact",
+        "content_type": 13,
+        "codename": "change_contact"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 51,
+    "fields": {
+        "name": "Can delete contact",
+        "content_type": 13,
+        "codename": "delete_contact"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 52,
+    "fields": {
+        "name": "Can view contact",
+        "content_type": 13,
+        "codename": "view_contact"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 53,
+    "fields": {
+        "name": "Can add about",
+        "content_type": 14,
+        "codename": "add_about"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 54,
+    "fields": {
+        "name": "Can change about",
+        "content_type": 14,
+        "codename": "change_about"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 55,
+    "fields": {
+        "name": "Can delete about",
+        "content_type": 14,
+        "codename": "delete_about"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 56,
+    "fields": {
+        "name": "Can view about",
+        "content_type": 14,
+        "codename": "view_about"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 57,
+    "fields": {
+        "name": "Can add kv store",
+        "content_type": 15,
+        "codename": "add_kvstore"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 58,
+    "fields": {
+        "name": "Can change kv store",
+        "content_type": 15,
+        "codename": "change_kvstore"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 59,
+    "fields": {
+        "name": "Can delete kv store",
+        "content_type": 15,
+        "codename": "delete_kvstore"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 60,
+    "fields": {
+        "name": "Can view kv store",
+        "content_type": 15,
+        "codename": "view_kvstore"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 61,
+    "fields": {
+        "name": "Can add article",
+        "content_type": 16,
+        "codename": "add_article"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 62,
+    "fields": {
+        "name": "Can change article",
+        "content_type": 16,
+        "codename": "change_article"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 63,
+    "fields": {
+        "name": "Can delete article",
+        "content_type": 16,
+        "codename": "delete_article"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 64,
+    "fields": {
+        "name": "Can view article",
+        "content_type": 16,
+        "codename": "view_article"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 65,
+    "fields": {
+        "name": "Can add message",
+        "content_type": 17,
+        "codename": "add_message"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 66,
+    "fields": {
+        "name": "Can change message",
+        "content_type": 17,
+        "codename": "change_message"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 67,
+    "fields": {
+        "name": "Can delete message",
+        "content_type": 17,
+        "codename": "delete_message"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 68,
+    "fields": {
+        "name": "Can view message",
+        "content_type": 17,
+        "codename": "view_message"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 69,
+    "fields": {
+        "name": "Can add newsletter",
+        "content_type": 18,
+        "codename": "add_newsletter"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 70,
+    "fields": {
+        "name": "Can change newsletter",
+        "content_type": 18,
+        "codename": "change_newsletter"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 71,
+    "fields": {
+        "name": "Can delete newsletter",
+        "content_type": 18,
+        "codename": "delete_newsletter"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 72,
+    "fields": {
+        "name": "Can view newsletter",
+        "content_type": 18,
+        "codename": "view_newsletter"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 73,
+    "fields": {
+        "name": "Can add submission",
+        "content_type": 19,
+        "codename": "add_submission"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 74,
+    "fields": {
+        "name": "Can change submission",
+        "content_type": 19,
+        "codename": "change_submission"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 75,
+    "fields": {
+        "name": "Can delete submission",
+        "content_type": 19,
+        "codename": "delete_submission"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 76,
+    "fields": {
+        "name": "Can view submission",
+        "content_type": 19,
+        "codename": "view_submission"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 77,
+    "fields": {
+        "name": "Can add subscription",
+        "content_type": 20,
+        "codename": "add_subscription"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 78,
+    "fields": {
+        "name": "Can change subscription",
+        "content_type": 20,
+        "codename": "change_subscription"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 79,
+    "fields": {
+        "name": "Can delete subscription",
+        "content_type": 20,
+        "codename": "delete_subscription"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 80,
+    "fields": {
+        "name": "Can view subscription",
+        "content_type": 20,
+        "codename": "view_subscription"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 81,
+    "fields": {
+        "name": "Can add newsletter users",
+        "content_type": 21,
+        "codename": "add_newsletterusers"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 82,
+    "fields": {
+        "name": "Can change newsletter users",
+        "content_type": 21,
+        "codename": "change_newsletterusers"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 83,
+    "fields": {
+        "name": "Can delete newsletter users",
+        "content_type": 21,
+        "codename": "delete_newsletterusers"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 84,
+    "fields": {
+        "name": "Can view newsletter users",
+        "content_type": 21,
+        "codename": "view_newsletterusers"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 85,
+    "fields": {
+        "name": "Can add profile",
+        "content_type": 22,
+        "codename": "add_profile"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 86,
+    "fields": {
+        "name": "Can change profile",
+        "content_type": 22,
+        "codename": "change_profile"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 87,
+    "fields": {
+        "name": "Can delete profile",
+        "content_type": 22,
+        "codename": "delete_profile"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 88,
+    "fields": {
+        "name": "Can view profile",
+        "content_type": 22,
+        "codename": "view_profile"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 89,
+    "fields": {
+        "name": "Can add NewsletterUser",
+        "content_type": 23,
+        "codename": "add_newsletterusers"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 90,
+    "fields": {
+        "name": "Can change NewsletterUser",
+        "content_type": 23,
+        "codename": "change_newsletterusers"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 91,
+    "fields": {
+        "name": "Can delete NewsletterUser",
+        "content_type": 23,
+        "codename": "delete_newsletterusers"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 92,
+    "fields": {
+        "name": "Can view NewsletterUser",
+        "content_type": 23,
+        "codename": "view_newsletterusers"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 93,
+    "fields": {
+        "name": "Can add attachment",
+        "content_type": 24,
+        "codename": "add_attachment"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 94,
+    "fields": {
+        "name": "Can change attachment",
+        "content_type": 24,
+        "codename": "change_attachment"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 95,
+    "fields": {
+        "name": "Can delete attachment",
+        "content_type": 24,
+        "codename": "delete_attachment"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 96,
+    "fields": {
+        "name": "Can view attachment",
+        "content_type": 24,
+        "codename": "view_attachment"
+    }
+},
+{
+    "model": "auth.user",
+    "pk": 1,
+    "fields": {
+        "password": "pbkdf2_sha256$180000$9Zrie46TqFey$L9gfVzLA+H7p1l0+wotlJrHlYKw52SkuZt+8Bz74GcA=",
+        "last_login": "2021-01-23T13:02:25.650Z",
+        "is_superuser": true,
+        "username": "zaurenbabatv",
+        "first_name": "",
+        "last_name": "",
+        "email": "zaurenbaba@gmail.com",
+        "is_staff": true,
+        "is_active": true,
+        "date_joined": "2020-11-24T16:22:59Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "blog.post",
+    "pk": 1,
+    "fields": {
+        "title": "United States President, Trump, Agrees To Transition Of Power To Biden",
+        "slug": "united-states-president-trump-agrees-transition-power-biden",
+        "author": 1,
+        "body": "President of the United States, Donald Trump, has accepted a formal transition should begin for President-elect, Joe Biden, to take office, a report by BBC said.\r\n\r\nThe President said the federal agency overseeing the handover must \"do what needs to be done\", even as he vowed to keep contesting his election defeat.\r\n\r\n\r\nThe General Services Administration said it was acknowledging Mr Biden as the \"apparent winner\".\r\n\r\nIt came as Biden's victory in the state of Michigan was officially certified, a major blow to Trump.\r\n\r\nAfter the GSA announcement, the Pentagon said it would provide \"support to the Biden team... in a professional, orderly, and efficient manner that is befitting of the public's expectation of the Department and our commitment to national security\".\r\n\r\nThe Biden team welcomed the start of the transition process as the Democratic president-elect gears up to be sworn in on January 20.\r\n\r\n\"Today's decision is a needed step to begin tackling the challenges facing our nation, including getting the pandemic under control and our economy back on track,\" a team statement said.\r\n\r\nEarlier, Biden unveiled a foreign policy and national security team consisting of old colleagues from his years in the Obama administration.\r\n\r\nHe will appoint Anthony Blinken as Secretary of State and John Kerry as climate envoy, while Janet Yellen is tipped to be the first female US Treasury Secretary.\r\n\r\nTrump tweeted as the GSA, which is tasked with formally beginning presidential transitions, informed the Biden camp that it would start the transition process.\r\n\r\nAdministrator, Emily Murphy, said she was making $6.3m in funds available to the president-elect.\r\n\r\nWhile pledging to keep up the \"good fight\", the President said, \"Nevertheless, in the best interest of our country, I am recommending that Emily and her team do what needs to be done with regard to initial protocols, and have told my team to do the same.\"\r\n\r\nTrump's fellow Republicans have increasingly been breaking ranks over the transition, with several of them speaking out on Monday.\r\n\r\nTennessee Senator, Lamar Alexander, who is retiring, released a statement saying that Trump should \"put the country first\" and help Biden succeed.\r\n\r\n\"When you are in public life, people remember the last thing you do,\" Alexander said.",
+        "post_img": "post_images/Donald_Trump_750x300_TG4SWx4.jpg",
+        "publish": "2020-11-24T21:55:06Z",
+        "created": "2020-11-24T16:27:07.530Z",
+        "updated": "2020-12-22T07:48:00.518Z",
+        "status": "published"
+    }
+},
+{
+    "model": "blog.post",
+    "pk": 2,
+    "fields": {
+        "title": "Police Confirm Clash Between Prison Guards, Motorcycle Riders In Oyo State",
+        "slug": "police-confirm-clash-between-prison-guards-motorcycle-riders-oyo-state",
+        "author": 1,
+        "body": "The Oyo State Police Command has confirmed the clash between Agodi Prison guards and motorcycle riders on Tuesday. Spokesperson for the command, Gbenga Fadeyi, however, claimed that the police didn't fire gunshots while intervening in the situation.\r\n\r\nHe said, \u201cContrary to the currently trending news online, that policemen fired shots leading to injury at Agodi gate area this morning.\r\n\r\n\"The truth is that there was a clash between officers of the correctional service and bike men stationed at agodi gate, upon receipt of this information, police men as well as other security agencies moved to the scene to ensure there\u2019s no break down of law and order that could lead to coordinated attack on the prison facility.\"\r\n\r\nSaharaReporters had reported that tension broke out when prison guards clashed with motorcycle riders.\r\n\r\n![](/media/markdownx/2020/12/03/1da84853-92d5-408d-ba5e-30bca43901e6.png){class=\"mx-auto d-block img-fluid\"}\r\n\r\nAccording to sources and eyewitnesses on the ground, the unrest started after a prison vehicle reportedly knocked down a commercial motorcycle rider, who was said to have died shortly afterwards.\r\n\r\n## Cause of Incident\r\n\r\nThe failure of prison officials to handle the situation properly was said to have angered the Okada riders, who soon mobilised their colleagues to stage a demonstration in front of the correctional facility.\r\n\r\nIn videos of the incident seen by SaharaReporters, commercial motorcycle riders in large numbers could be seen moving around the gate of the prison while pedestrians ran for safety.",
+        "post_img": "post_images/prison_guards_clash.png",
+        "publish": "2020-11-24T16:29:17Z",
+        "created": "2020-11-24T16:29:43.146Z",
+        "updated": "2021-01-23T13:15:49.852Z",
+        "status": "published"
+    }
+},
+{
+    "model": "blog.post",
+    "pk": 3,
+    "fields": {
+        "title": "Again, Bandits Attack Kaduna Community, Kill One Person, Injure Two Others",
+        "slug": "again-bandits-attack-kaduna-community-kill-one-person-injure-two-others",
+        "author": 1,
+        "body": "Gunmen suspected to be bandits have killed one person in Megigginya community under Igabi Local Governments Area of Kaduna State. The bandits also shot two other persons, leaving them seriously injured.\r\n\r\n[![](/media/markdownx/2021/01/23/b78573f2-405e-4922-8d02-b6a5ea847c27.png){class=\"mx-auto d-block img-fluid\"}](http://www.youtube.com/watch?v=iB_0gtyQKn0 \"Kaduna bandit\"){target=\"_blank\"}\r\n\r\n## Google\r\nThe incident happened around 2:30am on Tuesday when the gunmen stormed the village on motorcycles shooting sporadically.\r\n\r\n![](/media/markdownx/2020/12/03/9bbf3bd2-a288-4b55-8418-b2c947bff8fa.png){class=\"mx-auto d-block img-fluid\"}\r\n\r\nThe attack occurred a few days after a students\u2019 leader and #SecureNorth campaigner, Rabiu Auwal, was shot dead by bandits on the road linking the Kaduna International Airport and the Kaduna-Abuja train station.",
+        "post_img": "post_images/kaduna_bandits_RsWCog5.png",
+        "publish": "2020-11-24T16:31:20Z",
+        "created": "2020-11-24T16:31:23.445Z",
+        "updated": "2021-01-23T14:02:44.000Z",
+        "status": "published"
+    }
+},
+{
+    "model": "blog.post",
+    "pk": 4,
+    "fields": {
+        "title": "BREAKING: CBN retains lending rate at 11.5%",
+        "slug": "breaking-cbn-retains-lending-rate-115",
+        "author": 1,
+        "body": "The Monetary Policy Committee of the Central Bank of Nigeria has retained the Monetary Policy Rate at 11.5 per cent. The CBN Governor, Godwin Emefiele, disclosed this after the committee\u2019s two-day meeting in Abuja on Tuesday.\r\n\r\nIt also retained the Cash Reserve Ratio and Liquidity Ratio at 27.5 per cent and 30 per cent respectively. At the last MPC meeting in September, the committee reduced the MPR from 12.5 per cent to 11.5 per cent.\r\n\r\nThis is coming as Nigeria has entered second recession in five years as official figures published on Saturday show that the economy shrank again in the third quarter of this year.\r\n\r\nThis year\u2019s recession, occasioned by the economic fallout of the COVID-19 pandemic, is worse than that of 2016.\r\n\r\nThe National Bureau of Statistics, in its Gross Domestic Product report for Q3, said the GDP, the broadest measure of economic prosperity, fell by 3.62 in the three months to September.\r\n\r\nEconomists consider two consecutive quarters of shrinking GDP as the technical definition of a recession.\r\n\r\nFor the first time in more than three years, the Nigerian economy shrank in the second quarter of this year as the GDP fell by 6.10 per cent, compared with a growth of 1.87 per cent in Q1.\r\n\r\nThe NBS had said in August that the economic decline in Q2 was largely attributable to significantly lower levels of both domestic and international economic activity resulting from nationwide shutdown efforts aimed at containing the COVID-19 pandemic.\r\n\r\nIt said the contraction in Q2 brought to an end the three-year trend of low but positive real growth rates recorded since the 2016/17 recession.\r\n\r\nThe economy, which emerged from its first recession in 25 years in Q2 2017 when it posted a 0.7 per cent growth, had continued its slow recovery since then but the COVID-19 crisis made things worse.\r\n\r\nIn 2016, the economy slipped into recession in Q2 as the GDP shrank by 2.1 per cent after falling by 0.4 per cent in Q1 on the back of the steep fall in global crude oil prices and the country\u2019s production volumes.\r\n\r\nLast month, the World Bank revised its 2020 forecast for Nigeria\u2019s economy to -4.1 per cent from its previous projection of -3.2 per cent, saying the country\u2019s near-term outlook was subject to \u201cconsiderable uncertainty\u201d.\r\n\r\nThe bank had said in June that the collapse in crude oil prices, coupled with the COVID-19 pandemic, was expected to \u201cplunge the Nigerian economy into a severe recession, the worst since the 1980s\u201d.",
+        "post_img": "post_images/Godwin-Emefiele_900x563_47nZbbg.jpg",
+        "publish": "2020-11-24T16:31:23Z",
+        "created": "2020-11-24T16:34:08.017Z",
+        "updated": "2020-12-22T07:47:49.851Z",
+        "status": "published"
+    }
+},
+{
+    "model": "blog.post",
+    "pk": 5,
+    "fields": {
+        "title": "Boko Haram Female Suicide Bomber Kills Eight Children, Five Others In Cameroon",
+        "slug": "boko-haram-female-suicide-bomber-kills-eight-children-five-others-cameroon",
+        "author": 1,
+        "body": "Thirteen civilians, eight of them children, died Friday when a woman suicide bomber blew herself up in a jihadist attack on a village in northern Cameroon, a traditional chief and a police officer told AFP.\r\n\r\nCameroon's Far North region is grappling with deadly incursions from neighbouring Nigeria, where an insurgency launched by Boko Haram in 2009 has killed tens of thousands of people.\r\n\r\n![](/media/markdownx/2021/01/08/3f53f637-cb4e-474c-a809-1739b63c6bc6.jpg){class=\"mx-auto d-block img-fluid\"}\r\n\r\nMahamat Chetima Abba, the traditional chief, or lamido, in the village of Mozogo, said the attackers arrived in the middle of the night, shouting \"Allah Akbar\" (\"God is greater\") and brandishing machetes.\r\n\r\nThe panicked villagers tried to run off into the nearby forest, and in the stampede the suicide bomber detonated her device, he said.\r\n\r\nThe account was confirmed by a member of the local defence committee, who said his group had tried to repel the attack.\r\n\r\n\"Thirteen civilians died, two of them children aged four and five as well as six teenagers,\" a regional police officer told AFP by phone, speaking on condition of anonymity.\r\n\r\nThe lamido confirmed the number, saying that a woman and her three children were among the dead.\r\n\r\nBoth attributed the attack to Boko Haram.\r\n\r\nThe police source said that in addition to the suicide bomber, the other fatality among the attackers was a man who was killed by the self-defence force.\r\n\r\n\"They infiltrated the population \u2013 Boko Haram is inflicting more and more damage here,\" Chetima Abba said.\r\n\r\n\"However, it seems that they no longer have the means to carry out mass attacks using guns,\" he said, noting that the assailants had carried machetes.\r\n\r\n\"They are using home-made bombs more and more,\" he said.\r\n\r\nOn Monday, three members of a self-defence force in the nearby village of Kaliari were killed.\r\n\r\nMore than 36,000 people have been killed, most of them in Nigeria, and three million people have fled their homes since Boko Haram launched its insurrection in northeastern Nigeria in 2009.\r\n\r\nBoko Haram and a splinter group called the Islamic State in West Africa Province (ISWAP) have stepped up attacks in recent years in Nigeria and neighbouring Niger, Chad and Cameroon.\r\n\r\nNiger is also being hit by jihadists crossing from Mali.\r\n\r\nAn attack on two villages in the western Niger region of Tillaberi on Saturday left 105 dead, the highest civilian toll in the Sahel since the jihadist insurgency began in the region in 2012.",
+        "post_img": "post_images/boko_haram_PGEvktm.png",
+        "publish": "2021-01-08T16:19:25Z",
+        "created": "2021-01-08T16:24:43.067Z",
+        "updated": "2021-01-23T13:06:51.954Z",
+        "status": "published"
+    }
+},
+{
+    "model": "blog.post",
+    "pk": 6,
+    "fields": {
+        "title": "Almajiri Children Return To Bauchi, Kano, Kaduna Streets Months After Eviction",
+        "slug": "almajiri-children-return-bauchi-kano-kaduna-streets-months-after-eviction",
+        "author": 1,
+        "body": "Hundreds of almajiri have returned to the streets, months after northern state governors banned them from begging in their states.\r\n\r\nAt the onset of the COVID-19 pandemic, some northern state governors spent millions evacuating the street children to their home states and some outrightly banned the almajiri practice.\r\n\r\nHowever, despite the confusion relocating the almajirai generated among state governors, many children are seen in their numbers, in tattered clothes and begging bowls in Zuba, Bauchi Lafia, Kano and Kaduna.\r\n\r\nDailyTrust reports that in Bauchi, an increasing number of almajirai thronged different markets, motor parks, petrol stations, local food joints and prominent junctions in the state capital, particularly Wunti Roundabout, where they spend the day begging for alms.\r\n\r\nAlmajirai were also seen on major roads, streets, and popular junctions begging for food and money, a situation that exposes them to traffic and other dangers.\r\n\r\n![](/media/markdownx/2021/01/23/eec56e43-70cd-41c2-861a-0277a32ea0b4.jpg){class=\"mx-auto d-block img-fluid\"}\r\n\r\nDaily Trust Saturday recalled that the Bauchi State Government had last year repatriated hundreds of almajirai to their states of origin and received another set from neighbouring states who were reunited with their parents.\r\n\r\nSurajo Hamza, 13, was repatriated to his village in Sheme, Lere LGA in Kaduna State. He returned to Bauchi two weeks ago.\r\n\r\n\"Our Malam, Malam Sani, went to our village two weeks ago and brought us back to Bauchi,\" he said. \"I was among hundreds of almajirai who were repatriated from Bauchi State to our state of origin.\"\r\n\r\nYusuf Rabe, 10, from Dagolo village in Katsina State is now an almajiri at Unguwar Kurmi in Bauchi metropolis.\r\n\r\n\"It was my brother who brought me back to Bauchi six weeks ago to Alaramma school in Unguwar Kurmi. I don't know why they brought me back to Bauchi because I was taken back to my parents,\" he said.\r\n\r\nA resident, Garba Mohammed, said that the state government was not sincere about its ban of the almajiri system because, \"there is no practical step to monitor the implementation of the ban, neither is there an arrangement to enforce the ban. Any filling station you enter in the metropolis, you see these children chasing you for alms.\"\r\n\r\nThe proprietor of a tsangaya school, under the leadership of Sheikh Dahiru Usman Bauchi, had rejected the ban on the almajiri system by the northern state governors, describing the move as callous, discriminatory, and a conspiracy against Qur'anic knowledge.\r\n\r\nThe Bauchi State Commissioner of Religious Affairs and Community Relations, Ado Sarkin Aska Zigau, declined to comment and insisted on a face-to-face encounter when contacted on the phone. When our reporter requested to meet the commissioner, he dropped the call.\r\n\r\nHowever, the Commissioner of Education, Dr Aliyu Usman Tilde said that the government is aware of the return of the almajirai. A committee is at work to find solutions to the challenge.\r\n\r\n\"The committee is still working and consulting with critical stakeholders on a gradual process to enforce the ban because this system has been in place for over 1,000 years,\" he said.\r\n\r\nTilde explained that the committee had already directed the local government councils, through their welfare offices, to commence preparations for a smooth process of implementing the new approach to tackle the problems.\r\n\r\n[![](/media/markdownx/2021/01/23/c8ded42e-2126-4d5b-83b2-fa7c4330bb96.png){class=\"mx-auto d-block img-fluid\"}](https://www.youtube.com/watch?v=5-U4Uq684GY \"Almajiri to return to the north after eviction\"){target=\"_blank\"}",
+        "post_img": "post_images/Almajiri.jpg",
+        "publish": "2021-01-23T14:04:34Z",
+        "created": "2021-01-23T14:26:52.877Z",
+        "updated": "2021-01-23T14:32:57.146Z",
+        "status": "draft"
+    }
+},
+{
+    "model": "blog.post",
+    "pk": 7,
+    "fields": {
+        "title": "Hisbah arrests 53 women for \u2018immoral acts\u2019 in Kano",
+        "slug": "hisbah-arrests-53-women-for-immoral-acts-in-kano",
+        "author": 1,
+        "body": "The Commandant, Kano State Hisbah Board, Dr Haruna Ibn-Sina, said 53 women have been arrested over alleged involvement in \u201cimmoral acts\u201d in Kano metropolis.\r\n\r\nThe commandant confirmed the arrest in a statement signed by Malam Lawal Ibrahim, Public Relations Officer of the board in Kano on Wednesday.\r\n\r\nHe said that the suspects were apprehended on January 19, at about 9:00p.m in Nassarawa Park and Green Restaurant while consuming intoxicants along the Ahmadu Bello Way.\r\n\r\nHe said the arrest was based on directives given by the state government on a fresh ban on the activities of viewing and event centres across the state due to spread of COVID-19 cases.\r\n\r\n\u201cAll the 53 suspects are female and aged above 20 years. 52 of the suspects are first-time offenders, while the remaining one had once been arrested,\u201d he said.\r\n\r\nHe advised parents to stop buying big phones for their wards, but train them to be responsible.\r\n\r\nAccording to the statement, those that were first offenders have been handed over to their families with warnings, while the remaining one will be thoroughly advised.\r\n \r\nThe News Agency of Nigeria reports that immoral acts are banned under Sharia law operating in Kano State.\r\n\r\n[![](/media/markdownx/2021/01/23/74feb240-c224-4a64-9449-98d56c900f0f.png){class=\"mx-auto d-block img-fluid\"}](https://www.youtube.com/watch?v=1H0zf1X5fCs \"Kano Hisbah arrest 53 women for immoral acts\"){target=\"_blank\"}",
+        "post_img": "post_images/hisbah.jpg",
+        "publish": "2021-01-23T14:35:50Z",
+        "created": "2021-01-23T14:45:20.417Z",
+        "updated": "2021-01-23T14:45:20.417Z",
+        "status": "draft"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 1,
+    "fields": {
+        "action_time": "2020-11-24T16:27:07.572Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "1",
+        "object_repr": "United States President, Trump, Agrees To Transition Of Power To Biden",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 2,
+    "fields": {
+        "action_time": "2020-11-24T16:29:43.176Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "2",
+        "object_repr": "Police Confirm Clash Between Prison Guards, Motorcycle Riders In Oyo State",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 3,
+    "fields": {
+        "action_time": "2020-11-24T16:31:23.488Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "3",
+        "object_repr": "Again, Bandits Attack Kaduna Community, Kill One Person, Injure Two Others",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 4,
+    "fields": {
+        "action_time": "2020-11-24T16:34:08.052Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "4",
+        "object_repr": "BREAKING: CBN retains lending rate at 11.5%",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 5,
+    "fields": {
+        "action_time": "2020-11-27T21:55:11.408Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "1",
+        "object_repr": "United States President, Trump, Agrees To Transition Of Power To Biden",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Post img\", \"Publish\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 6,
+    "fields": {
+        "action_time": "2020-11-27T21:55:48.128Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "2",
+        "object_repr": "Police Confirm Clash Between Prison Guards, Motorcycle Riders In Oyo State",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Post img\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 7,
+    "fields": {
+        "action_time": "2020-11-27T21:56:05.325Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "3",
+        "object_repr": "Again, Bandits Attack Kaduna Community, Kill One Person, Injure Two Others",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Post img\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 8,
+    "fields": {
+        "action_time": "2020-11-27T21:56:16.802Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "4",
+        "object_repr": "BREAKING: CBN retains lending rate at 11.5%",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Post img\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 9,
+    "fields": {
+        "action_time": "2020-11-27T22:37:55.403Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "2",
+        "object_repr": "Police Confirm Clash Between Prison Guards, Motorcycle Riders In Oyo State",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Body\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 10,
+    "fields": {
+        "action_time": "2020-11-27T22:55:24.612Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "2",
+        "object_repr": "Police Confirm Clash Between Prison Guards, Motorcycle Riders In Oyo State",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Body\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 11,
+    "fields": {
+        "action_time": "2020-12-03T02:08:18.513Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "2",
+        "object_repr": "Police Confirm Clash Between Prison Guards, Motorcycle Riders In Oyo State",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Body\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 12,
+    "fields": {
+        "action_time": "2020-12-03T02:10:59.989Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "3",
+        "object_repr": "Again, Bandits Attack Kaduna Community, Kill One Person, Injure Two Others",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Body\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 13,
+    "fields": {
+        "action_time": "2020-12-03T02:29:46.312Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "3",
+        "object_repr": "Again, Bandits Attack Kaduna Community, Kill One Person, Injure Two Others",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Body\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 14,
+    "fields": {
+        "action_time": "2020-12-03T02:31:32.365Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "3",
+        "object_repr": "Again, Bandits Attack Kaduna Community, Kill One Person, Injure Two Others",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Body\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 15,
+    "fields": {
+        "action_time": "2020-12-03T02:34:24.343Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "3",
+        "object_repr": "Again, Bandits Attack Kaduna Community, Kill One Person, Injure Two Others",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Body\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 16,
+    "fields": {
+        "action_time": "2020-12-04T19:28:04.101Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "3",
+        "object_repr": "Again, Bandits Attack Kaduna Community, Kill One Person, Injure Two Others",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Body\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 17,
+    "fields": {
+        "action_time": "2020-12-04T21:50:09.635Z",
+        "user": 1,
+        "content_type": 13,
+        "object_id": "1",
+        "object_repr": "Hello! Welcome to Sahara Reporters. Want to connect? Drop of us a line, or use the simple form below and let us know how we can help.",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 18,
+    "fields": {
+        "action_time": "2020-12-05T00:06:52.074Z",
+        "user": 1,
+        "content_type": 14,
+        "object_id": "1",
+        "object_repr": "\"Everyone has the right to freedom of opinion and expression; this right includes freedom to hold opinions without interference and to seek, receive and impart information and ideas through any media ",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 19,
+    "fields": {
+        "action_time": "2020-12-05T11:15:03.898Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "2",
+        "object_repr": "Police Confirm Clash Between Prison Guards, Motorcycle Riders In Oyo State",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Body\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 20,
+    "fields": {
+        "action_time": "2020-12-05T11:17:47.144Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "3",
+        "object_repr": "Again, Bandits Attack Kaduna Community, Kill One Person, Injure Two Others",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Body\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 21,
+    "fields": {
+        "action_time": "2020-12-05T11:18:29.214Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "3",
+        "object_repr": "Again, Bandits Attack Kaduna Community, Kill One Person, Injure Two Others",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Post img\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 22,
+    "fields": {
+        "action_time": "2020-12-05T13:14:53.923Z",
+        "user": 1,
+        "content_type": 13,
+        "object_id": "1",
+        "object_repr": "Hello! Welcome to Badrudeen's Blog. Want to connect? Drop of us a line, or use the simple form below and let us know how we can help.",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Heading\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 23,
+    "fields": {
+        "action_time": "2020-12-19T13:58:43.664Z",
+        "user": 1,
+        "content_type": 14,
+        "object_id": "1",
+        "object_repr": "Zauren Baba TV itace tasha ta farko a Youtube da take yada shirye shirye don raya al'adun hausawa da wayar da kan matasa kan illar shaye shaye, muna gabatar da shirye shiryen da suka hadar da: mazan f",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"About\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 24,
+    "fields": {
+        "action_time": "2020-12-20T08:10:58.266Z",
+        "user": 1,
+        "content_type": 13,
+        "object_id": "1",
+        "object_repr": "Hello! Welcome to Badrudeen's Blog. Want to connect? Drop of us a line, or use the simple form below and let us know how we can help.",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Address\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 25,
+    "fields": {
+        "action_time": "2020-12-20T08:15:36.683Z",
+        "user": 1,
+        "content_type": 14,
+        "object_id": "1",
+        "object_repr": "Zauren Baba TV itace tasha ta farko a Youtube da take yada shirye shirye don raya al'adun hausawa da wayar da kan matasa kan illar shaye shaye, muna gabatar da shirye shiryen da suka hadar da: mazan f",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Name\", \"Logo\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 26,
+    "fields": {
+        "action_time": "2020-12-21T10:41:25.652Z",
+        "user": 1,
+        "content_type": 14,
+        "object_id": "1",
+        "object_repr": "Zauren Baba TV",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Logo\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 27,
+    "fields": {
+        "action_time": "2020-12-21T10:43:37.239Z",
+        "user": 1,
+        "content_type": 14,
+        "object_id": "1",
+        "object_repr": "Zauren Baba TV",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Logo\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 28,
+    "fields": {
+        "action_time": "2020-12-21T10:51:51.512Z",
+        "user": 1,
+        "content_type": 14,
+        "object_id": "1",
+        "object_repr": "Zauren Baba TV",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Logo\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 29,
+    "fields": {
+        "action_time": "2020-12-22T07:33:40.252Z",
+        "user": 1,
+        "content_type": 14,
+        "object_id": "1",
+        "object_repr": "Zauren Baba TV",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Logo\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 30,
+    "fields": {
+        "action_time": "2020-12-22T07:47:13.502Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "2",
+        "object_repr": "Police Confirm Clash Between Prison Guards, Motorcycle Riders In Oyo State",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Post img\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 31,
+    "fields": {
+        "action_time": "2020-12-22T07:47:32.272Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "3",
+        "object_repr": "Again, Bandits Attack Kaduna Community, Kill One Person, Injure Two Others",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Post img\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 32,
+    "fields": {
+        "action_time": "2020-12-22T07:47:49.861Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "4",
+        "object_repr": "BREAKING: CBN retains lending rate at 11.5%",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Post img\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 33,
+    "fields": {
+        "action_time": "2020-12-22T07:48:00.540Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "1",
+        "object_repr": "United States President, Trump, Agrees To Transition Of Power To Biden",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Post img\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 34,
+    "fields": {
+        "action_time": "2020-12-23T03:22:33.312Z",
+        "user": 1,
+        "content_type": 11,
+        "object_id": "2",
+        "object_repr": "127.0.0.1:8000",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 35,
+    "fields": {
+        "action_time": "2020-12-23T03:23:35.830Z",
+        "user": 1,
+        "content_type": 18,
+        "object_id": "1",
+        "object_repr": "Who is the founder of Clever Django?",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 36,
+    "fields": {
+        "action_time": "2020-12-23T03:27:43.293Z",
+        "user": 1,
+        "content_type": 17,
+        "object_id": "1",
+        "object_repr": "Who is the founder of Clever Django? in Who is the founder of Clever Django?",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}, {\"added\": {\"name\": \"article\", \"object\": \"Who is the founder of django?\"}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 37,
+    "fields": {
+        "action_time": "2020-12-23T03:32:12.479Z",
+        "user": 1,
+        "content_type": 20,
+        "object_id": "1",
+        "object_repr": "badru.2gex@gmail.com to Who is the founder of Clever Django?",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 38,
+    "fields": {
+        "action_time": "2020-12-23T03:32:59.859Z",
+        "user": 1,
+        "content_type": 19,
+        "object_id": "1",
+        "object_repr": "Who is the founder of Clever Django? in Who is the founder of Clever Django? on 2020-12-23 03:32:57+00:00",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Publication date\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 39,
+    "fields": {
+        "action_time": "2020-12-25T09:46:10.511Z",
+        "user": 1,
+        "content_type": 13,
+        "object_id": "1",
+        "object_repr": "Hello! Welcome to Zauren Baba TV. Want to get in touch with us? Use the simple form below or use any of the social media links below and let us know how we can help.",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Heading\", \"Email\", \"Address\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 40,
+    "fields": {
+        "action_time": "2021-01-01T20:04:00.466Z",
+        "user": 1,
+        "content_type": 21,
+        "object_id": "2",
+        "object_repr": "NewsletterUsers object (2)",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 41,
+    "fields": {
+        "action_time": "2021-01-01T20:36:38.732Z",
+        "user": 1,
+        "content_type": 21,
+        "object_id": "3",
+        "object_repr": "NewsletterUsers object (3)",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 42,
+    "fields": {
+        "action_time": "2021-01-01T20:36:38.740Z",
+        "user": 1,
+        "content_type": 21,
+        "object_id": "1",
+        "object_repr": "NewsletterUsers object (1)",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 43,
+    "fields": {
+        "action_time": "2021-01-04T15:57:45.856Z",
+        "user": 1,
+        "content_type": 18,
+        "object_id": "1",
+        "object_repr": "Who is the founder of Clever Django?",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Sender\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 44,
+    "fields": {
+        "action_time": "2021-01-07T16:15:01.355Z",
+        "user": 1,
+        "content_type": 18,
+        "object_id": "1",
+        "object_repr": "Django",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Newsletter title\", \"Slug\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 45,
+    "fields": {
+        "action_time": "2021-01-07T16:15:24.357Z",
+        "user": 1,
+        "content_type": 18,
+        "object_id": "1",
+        "object_repr": "Django",
+        "action_flag": 2,
+        "change_message": "[]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 46,
+    "fields": {
+        "action_time": "2021-01-07T16:19:17.418Z",
+        "user": 1,
+        "content_type": 17,
+        "object_id": "1",
+        "object_repr": "Django in Django",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Title\", \"Slug\"]}}, {\"changed\": {\"name\": \"article\", \"object\": \"Who is the founder of django?\", \"fields\": [\"Text\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 47,
+    "fields": {
+        "action_time": "2021-01-07T16:20:39.008Z",
+        "user": 1,
+        "content_type": 19,
+        "object_id": "1",
+        "object_repr": "Django in Django on 2020-12-23 03:32:57+00:00",
+        "action_flag": 2,
+        "change_message": "[]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 48,
+    "fields": {
+        "action_time": "2021-01-07T16:25:40.522Z",
+        "user": 1,
+        "content_type": 20,
+        "object_id": "3",
+        "object_repr": "ad@yahoo.com to Django",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 49,
+    "fields": {
+        "action_time": "2021-01-08T16:24:43.372Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "5",
+        "object_repr": "Boko Haram Female Suicide Bomber Kills Eight Children, Five Others In Cameroon",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 50,
+    "fields": {
+        "action_time": "2021-01-08T16:29:35.042Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "5",
+        "object_repr": "Boko Haram Female Suicide Bomber Kills Eight Children, Five Others In Cameroon",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Body\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 51,
+    "fields": {
+        "action_time": "2021-01-08T16:30:43.792Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "5",
+        "object_repr": "Boko Haram Female Suicide Bomber Kills Eight Children, Five Others In Cameroon",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Body\", \"Status\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 52,
+    "fields": {
+        "action_time": "2021-01-08T16:43:11.223Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "5",
+        "object_repr": "Boko Haram Female Suicide Bomber Kills Eight Children, Five Others In Cameroon",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Post img\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 53,
+    "fields": {
+        "action_time": "2021-01-08T16:45:39.498Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "5",
+        "object_repr": "Boko Haram Female Suicide Bomber Kills Eight Children, Five Others In Cameroon",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Body\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 54,
+    "fields": {
+        "action_time": "2021-01-08T16:45:58.928Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "5",
+        "object_repr": "Boko Haram Female Suicide Bomber Kills Eight Children, Five Others In Cameroon",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Tags\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 55,
+    "fields": {
+        "action_time": "2021-01-12T20:44:40.193Z",
+        "user": 1,
+        "content_type": 14,
+        "object_id": "1",
+        "object_repr": "Zauren Baba TV",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Logo\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 56,
+    "fields": {
+        "action_time": "2021-01-12T21:07:10.945Z",
+        "user": 1,
+        "content_type": 14,
+        "object_id": "1",
+        "object_repr": "Zauren Baba TV",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Logo\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 57,
+    "fields": {
+        "action_time": "2021-01-12T21:13:20.435Z",
+        "user": 1,
+        "content_type": 14,
+        "object_id": "1",
+        "object_repr": "Zauren Baba TV",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Logo\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 58,
+    "fields": {
+        "action_time": "2021-01-12T21:18:02.772Z",
+        "user": 1,
+        "content_type": 14,
+        "object_id": "1",
+        "object_repr": "Zauren Baba TV",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Logo\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 59,
+    "fields": {
+        "action_time": "2021-01-23T12:56:29.503Z",
+        "user": 1,
+        "content_type": 4,
+        "object_id": "1",
+        "object_repr": "zaurenbabatv",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Username\", \"Email address\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 60,
+    "fields": {
+        "action_time": "2021-01-23T13:03:06.623Z",
+        "user": 1,
+        "content_type": 9,
+        "object_id": "8",
+        "object_repr": "cbn",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Name\", \"Slug\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 61,
+    "fields": {
+        "action_time": "2021-01-23T13:06:51.977Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "5",
+        "object_repr": "Boko Haram Female Suicide Bomber Kills Eight Children, Five Others In Cameroon",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Body\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 62,
+    "fields": {
+        "action_time": "2021-01-23T13:11:10.300Z",
+        "user": 1,
+        "content_type": 8,
+        "object_id": "12",
+        "object_repr": "Comment by Sambo on United States President, Trump, Agrees To Transition Of Power To Biden",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Name\", \"Email\", \"Comment\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 63,
+    "fields": {
+        "action_time": "2021-01-23T13:11:55.348Z",
+        "user": 1,
+        "content_type": 8,
+        "object_id": "13",
+        "object_repr": "Comment by Dawood on United States President, Trump, Agrees To Transition Of Power To Biden",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Name\", \"Email\", \"Comment\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 64,
+    "fields": {
+        "action_time": "2021-01-23T13:15:49.860Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "2",
+        "object_repr": "Police Confirm Clash Between Prison Guards, Motorcycle Riders In Oyo State",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Body\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 65,
+    "fields": {
+        "action_time": "2021-01-23T13:17:37.346Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "3",
+        "object_repr": "Again, Bandits Attack Kaduna Community, Kill One Person, Injure Two Others",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Body\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 66,
+    "fields": {
+        "action_time": "2021-01-23T13:30:23.134Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "3",
+        "object_repr": "Again, Bandits Attack Kaduna Community, Kill One Person, Injure Two Others",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Body\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 67,
+    "fields": {
+        "action_time": "2021-01-23T14:02:44.010Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "3",
+        "object_repr": "Again, Bandits Attack Kaduna Community, Kill One Person, Injure Two Others",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Body\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 68,
+    "fields": {
+        "action_time": "2021-01-23T14:26:53.084Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "6",
+        "object_repr": "Almajiri Children Return To Bauchi, Kano, Kaduna Streets Months After Eviction",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 69,
+    "fields": {
+        "action_time": "2021-01-23T14:32:57.155Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "6",
+        "object_repr": "Almajiri Children Return To Bauchi, Kano, Kaduna Streets Months After Eviction",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Body\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 70,
+    "fields": {
+        "action_time": "2021-01-23T14:45:20.484Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "7",
+        "object_repr": "Hisbah arrests 53 women for \u2018immoral acts\u2019 in Kano",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+}
+]
